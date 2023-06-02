@@ -1,0 +1,798 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bécaert Elisa</title>
+    <meta name="description" content="Portfolio de Elisa Bécaert-En recherche d'une alterance en BTS SIO">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <script src="./js/global.js" defer></script>
+</head>
+
+<body>
+    
+    <!--ceci est un commentaire-->
+
+    <header class="header"> 
+        <div class="container d-flex">           
+            <div class="logo">
+                <li><a href="#hero">Bécaert Elisa</a></li>
+            </div>
+              <nav class="navbar ">
+                <ul class="menu list-unstyled">
+                    <li><a href="#hero">Acceuil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <!--<li><a href="#services">Services</a></li>-->
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <!--<li><a href="blog.html">Blog</a></li>-->
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <!--<li>
+                        <a href="https://google.fr">
+                        <svg aria-hidden="true" class="icon facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                    </a></li>-->
+                    <li>
+                        <a href="https://www.linkedin.com/in/elisa-b%C3%A9caert-4695b5268">
+                            <svg aria-hidden="true" class="icon linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                        </a></li>
+                    <li>
+                        <!--<a href="https://google.fr">
+                            <svg aria-hidden="true" class="icon twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                        </a></li>-->
+                    <li>
+                        <a href="https://www.instagram.com/becaert__elisa/">
+                            <svg aria-hidden="true" class="icon instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a></li>
+                </ul>
+                <button class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="grid">
+                <div class="hero__item left">
+                    <span class="titre__prin">"Rien de grand ne s'accompli dans le monde sans passion" <br>(Georg Wilhelm Friedrich Hegel)</span>
+                    <h1 class="title">Bienvenue !</h1> 
+                    <!--<p>sndqjhqjqjmdqdjqldqlmd</p>-->           
+                </div>
+                <div class="hero__item right">
+                    <div class="hero__avatar"></div>
+                        <img class="image__avatar" src="./img/avatar.png" alt=" Avatar Elisa Bécaert">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item" id="img__center">
+                    <img class="image__person" width="400" height="500" src="./img/Moi.jpg" alt="Elisa Bécaert">
+                </div>
+                <div class="grid__item">
+                    <h2 class="section-title">A propos</h2>
+                    <!--<h3>Qui suis-je ?</h3>-->
+                    <p>Bonjour, je m'appelle Elisa Bécaert, née le 1 avril 2003 et je suis passionnée par l'informatique ! 
+                        <br>J'ai commencer à coder il y a un peu plus d'un an. 
+                        <br>Mon intérêt pour l'informatique s'est par la suite renforcé lorsque j'ai commencé à coder
+                        mon propre site web , ce qui m'a permis de développer mes compétences techniques et ma
+                        créativité. <br>J’ai également découvert des outils de production vidéo comme DaVinci Resolve. En effet, j'ai eu l'occasion de filmer une équipe de Game Jam, pour ensuite en faire un montage vidéo. 
+                        <br>J’ai ainsi découvert un domaine
+                        passionnant et riche aussi bien en opportunités de métiers qu’en diversité de missions.</p>
+                    <!--<ul>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+            <h2 class="section-title">Mes services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path d="M281.2 248.9C295.6 228.3 304 203.2 304 176c0-70.7-57.3-128-128-128S48 105.3 48 176c0 27.2 8.4 52.3 22.8 72.9c3.7 5.3 8.1 11.3 12.8 17.7l0 0c12.9 17.7 28.3 38.9 39.8 59.8c10.4 19 15.7 38.8 18.3 57.5H93c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8l0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C11.6 247.9 0 213.3 0 176C0 78.8 78.8 0 176 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4l0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5H210.4c2.6-18.7 7.9-38.6 18.3-57.5c11.5-20.9 26.9-42.1 39.8-59.8l0 0 0 0 0 0c4.7-6.4 9-12.4 12.7-17.7zM176 128c-26.5 0-48 21.5-48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80V416H256v16c0 44.2-35.8 80-80 80z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>GESTION DE PROJET WEB</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>INTEGRATION WEB</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>DEVELOPPEMENTS SPECIFIQUES</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>REFERENCEMENT NATUREL</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>CONCEPTION GRAPHIQUE & WEBDESIGN</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M126.9 142.9c62.2-62.2 162.7-62.5 225.3-1L311 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H447.5c0 0 0 0 0 0H456c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L397.4 96.6c-87.6-86.5-228.7-86.2-315.8 1C57.2 122 39.6 150.7 28.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5c7.7-21.8 20.2-42.3 37.8-59.8zM0 312v7.6 .7V440c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l41.6-41.6c87.6 86.5 228.7 86.2 315.8-1c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.2 62.2-162.7 62.5-225.3 1L169 329c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8H32.4h-.7H24c-13.3 0-24 10.7-24 24z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>DYNAMISME DES PAGES</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                <path d="M224 0a128 128 0 1 1 0 256A128 128 0 1 1 224 0zM178.3 304h91.4c11.8 0 23.4 1.2 34.5 3.3c-2.1 18.5 7.4 35.6 21.8 44.8c-16.6 10.6-26.7 31.6-20 53.3c4 12.9 9.4 25.5 16.4 37.6s15.2 23.1 24.4 33c15.7 16.9 39.6 18.4 57.2 8.7v.9c0 9.2 2.7 18.5 7.9 26.3H29.7C13.3 512 0 498.7 0 482.3C0 383.8 79.8 304 178.3 304zM436 218.2c0-7 4.5-13.3 11.3-14.8c10.5-2.4 21.5-3.7 32.7-3.7s22.2 1.3 32.7 3.7c6.8 1.5 11.3 7.8 11.3 14.8v30.6c7.9 3.4 15.4 7.7 22.3 12.8l24.9-14.3c6.1-3.5 13.7-2.7 18.5 2.4c7.6 8.1 14.3 17.2 20.1 27.2s10.3 20.4 13.5 31c2.1 6.7-1.1 13.7-7.2 17.2l-25 14.4c.4 4 .7 8.1 .7 12.3s-.2 8.2-.7 12.3l25 14.4c6.1 3.5 9.2 10.5 7.2 17.2c-3.3 10.6-7.8 21-13.5 31s-12.5 19.1-20.1 27.2c-4.8 5.1-12.5 5.9-18.5 2.4l-24.9-14.3c-6.9 5.1-14.3 9.4-22.3 12.8l0 30.6c0 7-4.5 13.3-11.3 14.8c-10.5 2.4-21.5 3.7-32.7 3.7s-22.2-1.3-32.7-3.7c-6.8-1.5-11.3-7.8-11.3-14.8V454.8c-8-3.4-15.6-7.7-22.5-12.9l-24.7 14.3c-6.1 3.5-13.7 2.7-18.5-2.4c-7.6-8.1-14.3-17.2-20.1-27.2s-10.3-20.4-13.5-31c-2.1-6.7 1.1-13.7 7.2-17.2l24.8-14.3c-.4-4.1-.7-8.2-.7-12.4s.2-8.3 .7-12.4L343.8 325c-6.1-3.5-9.2-10.5-7.2-17.2c3.3-10.6 7.7-21 13.5-31s12.5-19.1 20.1-27.2c4.8-5.1 12.4-5.9 18.5-2.4l24.8 14.3c6.9-5.1 14.5-9.4 22.5-12.9V218.2zm92.1 133.5a48.1 48.1 0 1 0 -96.1 0 48.1 48.1 0 1 0 96.1 0z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>INTERFACE D'ADMINISTRATION</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path d="M0 64C0 28.7 28.7 0 64 0H288c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM208 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM288 64H64V384H288V64z"/></svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>RESPONSIVE DESIGN</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing eliteeee.</p>
+                            <div class="service">
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>-->
+    <section id="skills" class="skills">
+         <div class="container">
+            <div class="section-header">
+            <h2 class="section-title">Mes compétences</h2>
+            <p>"Cette bataille de compétences, c'est ce qui va faire la différence pour chaque individu, pour chaque entreprise" <br>(Muriel Pénicaud) </p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <h3>Domaines de compétences</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h4>Curieuse</h4>
+                            <p>Je cherche la plupart du temps à essayer de comprendre le pourquoi et le comment.</p>
+                        </li>
+                        <li>
+                            <h4>Autodidacte</h4>
+                            <p>J'ai commencée à apprendre à coder toute seule à l'aide de divers tuto (YTB, OpenClassrooms).</p>
+                        </li>
+                        <li>
+                            <h4>Créative</h4>
+                            <p>La créativité est une compétence qui me suit depuis mon plus jeune âge. En effet j'ai pas mal de facilité.</p>
+                        </li>
+                        <li>
+                            <h4>Sens du service</h4>
+                            <p>J'ai pu être à plusieurs reprise bénévole dans un camp, un camping, ou bien encore une association.</p>
+                        </li>
+                        <li>
+                            <h4>Esprit d'équipe</h4>
+                            <p>En rapport avec le bénévolat, l'esprit d'équipe est très important. De plus j'ai pu travailler 2 mois au Glacier Béatrix de Vallon-Pont-d'Arc.</p>
+                        </li>
+                        <li>
+                            <h4>Bonnes compétences relationnelles</h4>
+                            <p>J'ai pu être animatrice dans l'association (Club du Polygone) sur Valence(26).</p>
+                        </li>
+                        <li>
+                            <h4>Relation client</h4>
+                            <p>J'ai souvent de bon retour concernant ma façon d'être avec les clients.</p>
+                        </li>
+                    
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    <h3>Compétences de développement</h3>
+                        <div class="progressbar">
+                            <div class="bar" data-width="95">HTML</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="95">CSS</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="30">JAVASCRIPT</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="0">PHP</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="30">GML</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="30">GDSCRIPT</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="10">PYTHON</div>
+                        </div>
+                    <h3>Conpétences logiciels</h3>
+                    <div class="progressbar">
+                        <div class="bar" data-width="50">GAME_MAKER_STUDIO</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="30">GODOT_ENGINE</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="95">CANVA</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="80">DA_VINCI_RESOLVE</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="90">VISUAL_STUDIO_CODE</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+            <h2 class="section-title">Portfolio</h2>
+            <p>"L'espace blanc n'est jamais blanc."</p>
+            </div>
+            <ul class="grid portfolio-filters list-unstyled">
+                <li class="grid__item">
+                    <a href="#" class="active" data-filter="all">Tous les projets</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#" data-filter="web">Développement web</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#" data-filter="design">Jeu / Applications</a>
+                </li>
+                <!--<li class="grid__item">
+                    <a href="#" data-filter="app">...</a>
+                </li>-->
+            </ul>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Projet" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">En construction</h3>
+                            <p class="category">Développement Web</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-1">+</a>
+                        </div>
+                    </div>
+                    <!--<div class="modal" id="modal-1">
+                        <button class="modal__close">&times;</button>
+
+                        <div class="modal__content">
+
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img src="https://picsum.photos/600/400?random=1" class="card__image"
+                                        alt="Projet 1">
+                                        <img src="https://picsum.photos/600/400?random=1" class="card__image"
+                                        alt="Projet 2">
+
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal ${id}</h4>    
+                                        <p>
+                                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path fill="currentColor"
+                                                d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+                                            </svg>
+                                            <i>Année : 2019</i>
+                                        </p>  
+                                        <p class="category">
+                                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 512 512">
+                                                <path fill="currentColor"
+                                                d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                                            </svg>
+                                            Refonte graphique
+                                        </p>  
+                                        <p>
+                                            Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                        </p> 
+                                        
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                        </p>
+
+                                        <h5 class="h3">Technologies</h5>
+
+                                        <ul>
+                                            <li>HTML, CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>React</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>MongoDB</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>-->
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="design">
+                        <img src="https://picsum.photos/600/400?random=2" alt="Projet" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">en construction</h3>
+                            <p class="category">Jeu</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-2">+</a>
+                        </div>
+                    </div>
+                    <!--<div class="modal" id="modal-2">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img src="https://picsum.photos/600/400?random=2" class="card__image"
+                                        alt="Projet 1">
+                                        <img src="https://picsum.photos/600/400?random=2" class="card__image"
+                                        alt="Projet 2">
+
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal ${id}</h4>    
+                                        <p>
+                                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path fill="currentColor"
+                                                d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+                                            </svg>
+                                            <i>Année : 2019</i>
+                                        </p>  
+                                        <p class="category">
+                                            <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 512 512">
+                                                <path fill="currentColor"
+                                                d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                                            </svg>
+                                            Jeu
+                                        </p>  
+                                        <p>
+                                            Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                        </p> 
+                                        
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                        </p>
+
+                                        <h5 class="h3">Technologies</h5>
+
+                                        <ul>
+                                            <li>HTML, CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>React</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>MongoDB</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>-->
+                </div>
+                <!--<div class="grid__item">
+                    <div class="card" data-category="app">
+                        <img src="https://picsum.photos/600/400?random=3" alt="Projet" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre du projet</h3>
+                            <p class="category">Applications</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-3">+</a>
+                        </div>
+                        <div class="modal" id="modal-3">
+                            <button class="modal__close">&times;</button>
+    
+                            <div class="modal__content">
+    
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="https://picsum.photos/600/400?random=3" class="card__image"
+                                            alt="Projet 1">
+                                            <img src="https://picsum.photos/600/400?random=3" class="card__image"
+                                            alt="Projet 2">
+    
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Titre de la modal ${id}</h4>    
+                                            <p>
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                    data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+                                                </svg>
+                                                <i>Année : 2019</i>
+                                            </p>  
+                                            <p class="category">
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                    class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                                                </svg>
+                                                Refonte graphique
+                                            </p>  
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p> 
+                                            
+                                            <h5 class="h3">Informations</h5>
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p>
+    
+                                            <h5 class="h3">Technologies</h5>
+    
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>JavaScript</li>
+                                                <li>React</li>
+                                                <li>Node.js</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <!--<div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="https://picsum.photos/600/400?random=4" alt="Projet" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre du projet</h3>
+                            <p class="category">Développement Web</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-4">+</a>
+                        </div>
+                        <div class="modal" id="modal-4">
+                            <button class="modal__close">&times;</button>
+    
+                            <div class="modal__content">
+    
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="https://picsum.photos/600/400?random=4" class="card__image"
+                                            alt="Projet 1">
+                                            <img src="https://picsum.photos/600/400?random=4" class="card__image"
+                                            alt="Projet 2">
+    
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Titre de la modal ${id}</h4>    
+                                            <p>
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                    data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+                                                </svg>
+                                                <i>Année : 2019</i>
+                                            </p>  
+                                            <p class="category">
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                    class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                                                </svg>
+                                                Refonte graphique
+                                            </p>  
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p> 
+                                            
+                                            <h5 class="h3">Informations</h5>
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p>
+    
+                                            <h5 class="h3">Technologies</h5>
+    
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>JavaScript</li>
+                                                <li>React</li>
+                                                <li>Node.js</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <!--<div class="grid__item">
+                    <div class="card" data-category="design">
+                        <img src="https://picsum.photos/600/400?random=5" alt="Projet" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre du projet</h3>
+                            <p class="category">Refonte Graphique</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-5">+</a>
+                        </div>
+                        <div class="modal" id="modal-5">
+                            <button class="modal__close">&times;</button>
+    
+                            <div class="modal__content">
+    
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="https://picsum.photos/600/400?random=5" class="card__image"
+                                            alt="Projet 1">
+                                            <img src="https://picsum.photos/600/400?random=5" class="card__image"
+                                            alt="Projet 2">
+    
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Titre de la modal ${id}</h4>    
+                                            <p>
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                    data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+                                                </svg>
+                                                <i>Année : 2019</i>
+                                            </p>  
+                                            <p class="category">
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                    class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                                                </svg>
+                                                Refonte graphique
+                                            </p>  
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p> 
+                                            
+                                            <h5 class="h3">Informations</h5>
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p>
+    
+                                            <h5 class="h3">Technologies</h5>
+    
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>JavaScript</li>
+                                                <li>React</li>
+                                                <li>Node.js</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <!--<div class="grid__item">
+                    <div class="card" data-category="app">
+                        <img src="https://picsum.photos/600/400?random=6" alt="Projet" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre du projet</h3>
+                            <p class="category">Applications</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-6">+</a>
+                        </div>
+                        <div class="modal" id="modal-6">
+                            <button class="modal__close">&times;</button>
+    
+                            <div class="modal__content">
+    
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="https://picsum.photos/600/400?random=6" class="card__image"
+                                            alt="Projet 1">
+                                            <img src="https://picsum.photos/600/400?random=6" class="card__image"
+                                            alt="Projet 2">
+    
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Titre de la modal ${id}</h4>    
+                                            <p>
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                                    data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+                                                </svg>
+                                                <i>Année : 2019</i>
+                                            </p>  
+                                            <p class="category">
+                                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                                    class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                                                </svg>
+                                                Refonte graphique
+                                            </p>  
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p> 
+                                            
+                                            <h5 class="h3">Informations</h5>
+                                            <p>
+                                                Je dois entrer du texte pour explique et que ça ne fasse pas de vide !
+                                            </p>
+    
+                                            <h5 class="h3">Technologies</h5>
+    
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>JavaScript</li>
+                                                <li>React</li>
+                                                <li>Node.js</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+            <h2 class="section-title">Contact</h2>
+            <!--<p>efsofsf,skle</p>-->
+            </div>
+        </div>
+
+        <form action="Contact.php" class="form">
+            <label for="firstname">
+                <input type="text" name="firstname" id="firstname" placeholder="Nom">
+            </label>
+            <label for="lastname">
+                <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+            </label>
+            <label for="email">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </label>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" class="btn" value="Envoyer">
+        </form>
+    
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>Becaert</p>
+                </div>
+                <div class="grid__item">
+                    <ul class="socials list-unstyled">
+                        <!--<li>
+                            <a href="https://google.fr">
+                            <svg class="icon facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                        </a></li>-->
+                        <li>
+                            <a href="https://www.linkedin.com/in/elisa-b%C3%A9caert-4695b5268">
+                                <svg aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                            </a></li>
+                        <!--<li>
+                            <a href="https://google.fr">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                            </a></li>-->
+                        <li>
+                            <a href="https://www.instagram.com/becaert__elisa/">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    <p>Copyright © 2023 BécaertElisa. All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
